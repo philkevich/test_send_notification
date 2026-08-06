@@ -2,6 +2,8 @@ FROM continuumio/miniconda3:latest
 
 WORKDIR /app
 
+CMD ["sh", "start.sh"]
+
 COPY environment.yml .
 RUN conda env create -f environment.yml \
  && conda clean -afy
