@@ -1,0 +1,11 @@
+name: test_send_notification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - requests
+  - python-dotenv
+  - pip
+  - pip:
+      - requests==2.34.2
+      - python-dotenv==1.2.2
