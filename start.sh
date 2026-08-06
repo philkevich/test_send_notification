@@ -1,3 +1,3 @@
 bash
 #!/bin/bash
-python src/test/runner.py
+python3 src/test/runner.py
